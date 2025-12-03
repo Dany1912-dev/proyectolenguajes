@@ -58,6 +58,8 @@ namespace APIMetodologia.Services.Implementations
             _context.DetallesPedidosClientes.AddRange(detalles);
             await _context.SaveChangesAsync();
 
+            NotificadorSocket.EnviarNotificacion("Nuevo Pedido", $"Se ha registrado el pedido #{pedido.IdPedidoCliente} automáticamente.");
+
             pedido.DetallesPedido = detalles;
 
             return pedido;

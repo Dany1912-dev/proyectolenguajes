@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\services\\implementations\\materiaprimaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\services\\implementations\\materiaprimaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\models\\entities\\detallepedidocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\models\\entities\\detallepedidocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\services\\implementations\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\services\\implementations\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\models\\entities\\materiaprima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\models\\entities\\materiaprima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\controllers\\materiasprimascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\controllers\\materiasprimascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\services\\implementations\\materiaprimaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\services\\implementations\\materiaprimaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\services\\notificadorsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\services\\notificadorsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\models\\entities\\detallepedidocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\models\\entities\\detallepedidocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\controllers\\materiasprimascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\controllers\\materiasprimascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\models\\entities\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\models\\entities\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\models\\entities\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|c:\\users\\leyva\\onedrive\\desktop\\proyecto lenguajes\\api\\apimetodologia\\apimetodologia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A701E630-9F3B-4DC1-9135-F3D02943A2DF}|APIMetodologia\\APIMetodologia.csproj|solutionrelative:apimetodologia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,27 +70,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Program.cs",
+              "RelativeDocumentMoniker": "APIMetodologia\\Program.cs",
+              "ToolTip": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Program.cs",
+              "RelativeToolTip": "APIMetodologia\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:36:45.42Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\Implementations\\AuthService.cs",
-              "RelativeDocumentMoniker": "APIMetodologia\\Services\\Implementations\\AuthService.cs",
-              "ToolTip": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\Implementations\\AuthService.cs",
-              "RelativeToolTip": "APIMetodologia\\Services\\Implementations\\AuthService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGgAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\Implementations\\PedidoService.cs",
+              "RelativeDocumentMoniker": "APIMetodologia\\Services\\Implementations\\PedidoService.cs",
+              "ToolTip": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\Implementations\\PedidoService.cs",
+              "RelativeToolTip": "APIMetodologia\\Services\\Implementations\\PedidoService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T08:31:25.423Z"
+              "WhenOpened": "2025-12-03T04:55:07.956Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MateriaPrima.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Models\\Entities\\MateriaPrima.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Models\\Entities\\MateriaPrima.cs",
@@ -90,11 +113,12 @@
               "RelativeToolTip": "APIMetodologia\\Models\\Entities\\MateriaPrima.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T05:45:45.534Z"
+              "WhenOpened": "2025-12-01T05:45:45.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Controllers\\ProductosController.cs",
@@ -112,13 +136,14 @@
               "RelativeDocumentMoniker": "APIMetodologia\\Controllers\\PedidosController.cs",
               "ToolTip": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Controllers\\PedidosController.cs",
               "RelativeToolTip": "APIMetodologia\\Controllers\\PedidosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:07:40.247Z"
+              "WhenOpened": "2025-12-01T01:07:40.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Controllers\\AdminController.cs",
@@ -131,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "DetallePedidoCliente.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Models\\Entities\\DetallePedidoCliente.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Models\\Entities\\DetallePedidoCliente.cs",
@@ -143,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Controllers\\AuthController.cs",
@@ -155,19 +180,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MateriaPrimaService.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\Implementations\\MateriaPrimaService.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Services\\Implementations\\MateriaPrimaService.cs",
               "ToolTip": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\Implementations\\MateriaPrimaService.cs",
               "RelativeToolTip": "APIMetodologia\\Services\\Implementations\\MateriaPrimaService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAcwBUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T06:53:55.653Z"
+              "WhenOpened": "2025-12-01T06:53:55.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "NotificadorSocket.cs",
+              "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\NotificadorSocket.cs",
+              "RelativeDocumentMoniker": "APIMetodologia\\Services\\NotificadorSocket.cs",
+              "ToolTip": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\NotificadorSocket.cs",
+              "RelativeToolTip": "APIMetodologia\\Services\\NotificadorSocket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:46:33.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "APIMetodologia\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "APIMetodologia\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T08:31:25.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MateriasPrimasController.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Controllers\\MateriasPrimasController.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Controllers\\MateriasPrimasController.cs",
@@ -179,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Models\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Models\\Entities\\Usuario.cs",
@@ -187,11 +239,12 @@
               "RelativeToolTip": "APIMetodologia\\Models\\Entities\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T05:34:34.585Z"
+              "WhenOpened": "2025-12-01T05:34:34.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "TipoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Models\\Entities\\TipoUsuario.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Models\\Entities\\TipoUsuario.cs",
@@ -203,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Proveedores.cs",
               "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Models\\Entities\\Proveedores.cs",
               "RelativeDocumentMoniker": "APIMetodologia\\Models\\Entities\\Proveedores.cs",
@@ -212,18 +265,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T05:38:47.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Program.cs",
-              "RelativeDocumentMoniker": "APIMetodologia\\Program.cs",
-              "ToolTip": "C:\\Users\\leyva\\OneDrive\\Desktop\\Proyecto Lenguajes\\API\\APIMetodologia\\APIMetodologia\\Program.cs",
-              "RelativeToolTip": "APIMetodologia\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T22:36:45.42Z"
             }
           ]
         }

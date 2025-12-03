@@ -17,11 +17,11 @@ class FormBase(tk.Frame):
             try:
                 resultado = funcionApi(*args)
 
-                if callbackExito:
-                    self.master.after(0, lambda: callbackExito(resultado))
-
                 if hasattr(self, 'labelEstatus'):
                     self.master.after(0, lambda: self.labelEstatus.config(text="Operación completada.", fg="green"))
+
+                if callbackExito:
+                    self.master.after(0, lambda: callbackExito(resultado))
 
             except Exception as e:
 

@@ -215,6 +215,6 @@ class FormMateriaPrima(FormBase):
             
         mensaje = "--- ALERTA DE STOCK BAJO ---\n\n"
         for mp in alertas:
-            mensaje += f"{mp.nombre}: {mp.stock_actual} {mp.unidad_de_medida} (ID: {mp.id})\n"
+            mensaje += f"{mp.nombre}: {mp.stockActual} {mp.unidadDeMedida}\n"
         
-        messagebox.showwarning("Stock Bajo (HU3)", mensaje)
+        messagebox.showwarning("Stock Bajo: ", mensaje)

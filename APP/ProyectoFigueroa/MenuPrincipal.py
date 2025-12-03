@@ -4,6 +4,7 @@ from clienteApi import api
 from FormMateriaPrima import FormMateriaPrima 
 from FormPedidos import FormPedidos
 from FormReporte import FormReportes
+from Socket import Socket
 
 class MenuPrincipal(FormBase):
     def __init__(self, master=None):
@@ -26,9 +27,6 @@ class MenuPrincipal(FormBase):
         
         tk.Button(self, text="3. Reporte Diario de Ventas", width=40, 
                   command=self.abrirReporteVentas).pack(pady=5)
-        
-        tk.Button(self, text="4. Chat y Notificaciones", width=40, 
-                  command=lambda: self.mostrarInfo("Aun no esta hecho, es el apartado de Sockets e hilos sincronizados")).pack(pady=5)
         
         tk.Button(self, text="Cerrar Sesión", fg="red", command=self.cerrarSesion).pack(pady=30)
         

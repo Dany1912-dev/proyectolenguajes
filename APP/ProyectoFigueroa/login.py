@@ -3,6 +3,7 @@ from tkinter import messagebox
 import threading
 from clienteApi import api
 from MenuPrincipal import MenuPrincipal
+from Socket import Socket
 
 class LoginForm(tk.Frame):
     def __init__(self, master=None):
@@ -53,6 +54,13 @@ class LoginForm(tk.Frame):
         self.master.withdraw()
 
         main_window = tk.Toplevel(self.master)
+
+        try:
+            socket = Socket(masterUi=main_window)
+            socket.iniciarServicio()
+        except Exception as e:
+            print(f"No se pudo iniciar el socket: {e}")
+
         MenuPrincipal(master=main_window)
 
     def loginFallido(self, error):

@@ -2,12 +2,13 @@ import json
 from models import UsuarioInfo, MateriaPrima, Producto, PedidoCliente, DetallePedidoCliente
 import urllib.parse
 import requests
+import threading
 class ClienteAPI:
     usuarioActual = None
     urlBase = "http://localhost:5000/api/"
 
     def __init__(self):
-        pass
+        self.bloqueo = threading.Lock()
             
     def get_headers(self):
         headers = {
@@ -18,65 +19,67 @@ class ClienteAPI:
         return headers
 
     def solicitud(self, metodo, endpoint, datos=None):
-        url = urllib.parse.urljoin(self.urlBase, endpoint)
-        headers = self.get_headers()
-        datos = json.dumps(datos) if datos else None
+        with self.bloqueo:
+            url = urllib.parse.urljoin(self.urlBase, endpoint)
+            headers = self.get_headers()
+            datos = json.dumps(datos) if datos else None
 
-        try:
-            if metodo == 'GET':
-                respuesta = requests.get(url, headers=headers)
-            elif metodo == 'POST':
-                respuesta = requests.post(url, headers=headers, data=datos)
-            elif metodo == 'PUT':
-                respuesta = requests.put(url, headers=headers, data=datos)
-            elif metodo == 'DELETE':
-                respuesta = requests.delete(url, headers=headers)
-            else:
-                raise ValueError(f"Método HTTP no soportado: {metodo}")
-            
-            if respuesta.status_code == 204:
-                return True
-            respuesta.raise_for_status()
-            
-            return respuesta.json()
-        except requests.exceptions.HTTPError as e:
             try:
-                detalleError = e.response.json().get('mensaje', e.response.reason)
-            except:
-                detalleError = e.response.reason
-            raise Exception(f"Error HTTP {e.response.status_code}: {detalleError}")
-        except requests.exceptions.RequestException as e:
-            raise Exception(f"Error de conexion con la API: {e}")
+                if metodo == 'GET':
+                    respuesta = requests.get(url, headers=headers)
+                elif metodo == 'POST':
+                    respuesta = requests.post(url, headers=headers, data=datos)
+                elif metodo == 'PUT':
+                    respuesta = requests.put(url, headers=headers, data=datos)
+                elif metodo == 'DELETE':
+                    respuesta = requests.delete(url, headers=headers)
+                else:
+                    raise ValueError(f"Método HTTP no soportado: {metodo}")
+                
+                if respuesta.status_code == 204:
+                    return True
+                respuesta.raise_for_status()
+                
+                return respuesta.json()
+            except requests.exceptions.HTTPError as e:
+                try:
+                    detalleError = e.response.json().get('mensaje', e.response.reason)
+                except:
+                    detalleError = e.response.reason
+                raise Exception(f"Error HTTP {e.response.status_code}: {detalleError}")
+            except requests.exceptions.RequestException as e:
+                raise Exception(f"Error de conexion con la API: {e}")
         
     def login(self, email, password):
-        endpoint = "Auth/login"
-        datos = {
-            "email": email,
-            "password": password
-        }
+        with self.bloqueo:
+            endpoint = "Auth/login"
+            datos = {
+                "email": email,
+                "password": password
+            }
 
-        url = urllib.parse.urljoin(self.urlBase, endpoint)
-        respuesta = requests.post(url, headers=self.get_headers(), data=json.dumps(datos))
+            url = urllib.parse.urljoin(self.urlBase, endpoint)
+            respuesta = requests.post(url, headers=self.get_headers(), data=json.dumps(datos))
 
-        if respuesta.status_code == 400:
-            datosError = respuesta.json()
-            raise Exception(f"Inicio de sesion fallido: {datosError.get('mensaje', 'Credenciales inválidas')}")
-        respuesta.raise_for_status()
-        datosUsuario = respuesta.json()
-        if datosUsuario.get('exito'):
-            datosUsuarioInfo = datosUsuario.get('usuario', {})
+            if respuesta.status_code == 400:
+                datosError = respuesta.json()
+                raise Exception(f"Inicio de sesion fallido: {datosError.get('mensaje', 'Credenciales inválidas')}")
+            respuesta.raise_for_status()
+            datosUsuario = respuesta.json()
+            if datosUsuario.get('exito'):
+                datosUsuarioInfo = datosUsuario.get('usuario', {})
 
-            ClienteAPI.usuarioActual = UsuarioInfo(
-                id=datosUsuarioInfo.get('id'),
-                nombre=datosUsuarioInfo.get('nombre'),
-                email=datosUsuarioInfo.get('email'),
-                telefono=datosUsuarioInfo.get('telefono'),
-                tipoUsuario=datosUsuarioInfo.get('tipoUsuario'),
-                token=datosUsuario.get('token')
-            )
-            return ClienteAPI.usuarioActual
-        else:
-            raise Exception("Inicio de sesion fallido: Credenciales inválidas")
+                ClienteAPI.usuarioActual = UsuarioInfo(
+                    id=datosUsuarioInfo.get('id'),
+                    nombre=datosUsuarioInfo.get('nombre'),
+                    email=datosUsuarioInfo.get('email'),
+                    telefono=datosUsuarioInfo.get('telefono'),
+                    tipoUsuario=datosUsuarioInfo.get('tipoUsuario'),
+                    token=datosUsuario.get('token')
+                )
+                return ClienteAPI.usuarioActual
+            else:
+                raise Exception("Inicio de sesion fallido: Credenciales inválidas")
         
     # Materias Primas
     def obtenerMateriasPrimas(self):
